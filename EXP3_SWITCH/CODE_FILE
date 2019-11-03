@@ -1,1 +1,15 @@
-
+int val = 0;     // variable for reading the pin status
+ 
+void setup() {
+  pinMode(13, OUTPUT);  // declare LED as output
+  pinMode(7, INPUT);    // declare pushbutton as input
+}
+ 
+void loop(){
+  val = digitalRead(7);  // read input value
+  if (val == HIGH) {         // check if the input is HIGH (button released)
+    digitalWrite(13, LOW);  // turn LED OFF
+  } else {
+    digitalWrite(13, HIGH);  // turn LED ON
+  }
+}
