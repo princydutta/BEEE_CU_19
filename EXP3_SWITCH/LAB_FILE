@@ -1,0 +1,19 @@
+Aim:
+To turn a LED on and off using switch.
+Theory:
+Analysing the concept of switch.
+How we can turn a LED on and off using a push button on a switch on Arduino board and breadboard.
+Learning and observations:
+After connecting all the wires with Arduino and breadboard and the USB cables along with a switch the led glows when the switch is pressed.
+Problems and troubleshooting:
+1.Loose connection of cables.
+2.Loose connections of LED bulbs.
+3.Error in programming or coding.
+Precautions:
+While unplugging the USB ,pull the plug not the cable.
+Connections should be tight and according to the coding done on Arduino software.
+Handle the apparatus like AUDRINO BOARD, LED wires and breadboard carefully.
+Learning Outcomes:
+Working and appearance of Arduino.
+Lighting of LED using Arduino board and software and switch.
+Design and analysis of breadboard along with its circuit diagram.
